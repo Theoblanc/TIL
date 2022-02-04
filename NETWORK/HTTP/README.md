@@ -49,8 +49,27 @@ Requset와 Response를 교환하는 동안에 상태를 유지하지 않습니�
 | --- | ------------- | ------------------------------------------- |
 | 1xx | Informational | 리퀘스트를 받아들여 처리중                  |
 | 2xx | Success       | 리퀘스트를 정상적으로 처리했음              |
-| 3xx | Redirection   | 리퀘스트를 완료하기 위해서 추가 동작이 필요        |
+| 3xx | Redirection   | 리퀘스트를 완료하기 위해서 추가 동작이 필요 |
 | 4xx | Client Error  | 서버는 리퀘스트 이해 불가능                 |
 | 5xx | server Error  | 서버는 리퀘스트 처리 실패                   |
 
+## Methods
 
+- get
+- head
+- post
+- put
+- delete
+- patch
+
+```
+HEAD
+HEAD 메서드는 GET 메서드의 요청과 동일한 응답을 요구하지만, 응답 본문을 포함하지 않습니다.
+
+CONNECT
+CONNECT 메서드는 목적 리소스로 식별되는 서버로의 터널을 맺습니다.
+
+OPTIONS
+OPTIONS 메서드는 목적 리소스의 통신을 설정하는 데 쓰입니다.
+
+```
